@@ -16,30 +16,41 @@
 </head>
 <body>
     <!-- INI Primera página -->
-    <section id="page1" data-role="page" data-fullscreen="true">
-        <header data-role="header" data-position="fixed">
+    <section id="page1" data-role="page">
+        <header data-role="header">
             <h1>jQuery Mobile</h1>
         </header>
         <div class="content" data-role="content">
-            <h3>Content area.</h3>
+            <h3>Botones</h3>
+            <a href="#page2" data-role="button">Botón en elemento enlace</a>
+            <input type="submit" value="submit" data-inline="true">
+            <input type="reset" value="reset" data-inline="true">
         </div>
         </div>
-        <footer data-role="footer" data-position="fixed">
-            <h3>4vientos</h3>
+        <footer data-role="footer">
+            <h1>4vientos</h1>
         </footer>
     </section>
+
     <!-- FIN Primera página -->
     <!-- INI Segunda página -->
-    <section id="page1" data-role="page">
-        <header data-role="header" data-position="fixed">
+    <section id="page2" data-role="page">
+        <header data-role="header">
             <h1>jQuery Mobile</h1>
         </header>
         <div class="content" data-role="content">
-            <h3>Contenido</h3>
+            <h3>Bontones con iconos</h3>
+            <div data-role="controlgroup" data-type="horizontal" data-inline="true">
+                <a href="#" data-role="button" data-icon="home" dataiconpos="left">Principal</a>
+
+                <a href="#" data-role="button" data-icon="gear" dataiconpos="left">Configuración</a>
+
+                <a href="#" data-role="button" data-icon="search" dataiconpos="left">Busqueda</a>
+
+            </div>
         </div>
-        </div>
-        <footer data-role="footer" data-position="fixed">
-            <h3>4vientos</h3>
+        <footer data-role="footer">
+            <h1>4vientos</h1>
         </footer>
     </section>
     <!-- FIN Segunda página -->
